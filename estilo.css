@@ -1,0 +1,219 @@
+html{
+    margin: 0 10px 0 10px;
+    background-color: #ececec;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header{
+ 
+   padding: 10px 10px 10px 10px;
+    height: 150px;
+    background-color: #2a1a5e ;
+}
+
+#newsImg{
+    margin-left: 25px;
+
+}
+
+#tituloPrincipal{
+    color: #fbe555;
+    font-family: "Impact";
+    transform: uppercase;
+    margin-left: 10px;
+    font-size: 25px;
+    float: left;
+    position: absolute;
+    top: 40px;
+    margin-left: 250px;
+    
+}
+
+nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    margin: 20px 10px 10px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+nav a{
+    color: #fb9224;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #2a1a5e;
+    cursor: pointer;
+ }
+ 
+main{
+    font-size: 14px;
+    color: #5a5858;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#textoNews{
+    margin: 50px 0px 50px 0px;
+}
+.noticiasTexto{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    background-color: #e7dbdb;
+    border-radius: 20px;
+}
+.imagens{
+    width: 270px;
+    height: 200px;
+}
+figcaption{
+    color: #5a5858;
+    text-align: justify;
+    font-size: smaller;
+    width: 270px;
+}
+
+.titulo a{
+    color: #fb9224 ;
+}
+
+.titulo a:hover{
+    color: #9c9b99;
+    cursor: pointer;
+}
+.titulo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fb9224 ;
+  
+}
+
+.texto{
+    text-align: justify;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5a5858;
+}
+
+
+
+#titulo2{
+    margin-left: 30px;
+    color: #2a1a5e;
+    text-transform: uppercase;
+  
+}
+#videoNews{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-bottom: 50px;
+ 
+}
+.video{
+    width: 600px;
+}
+
+
+#podcastNews{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between; 
+    flex-flow: wrap;   
+}
+
+.podcast{
+    width: 400px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+   background-color: #1a0c0c;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: #e0dcdc;
+}
+
+footer a{
+    color: #fb9224;
+}
+footer a:hover{
+    color: #9c9b99;
+}
+
+
+#sobre{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#minhaFoto img{
+  border-radius: 50%;  
+}
+#descricaoSobreMim{
+    width: 500px;
+   text-align: center;
+}
+#icons {
+  display: flex;
+  justify-content: center;
+  
+}
+#icons a{
+    margin-left: 30px;
+}
+
+#sites{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 100px 25px 0 25px;
+    color: #2a1a5e;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border-radius: 25px;
+    margin-left: 5px;
+    border: #ececec 2px solid;
+
+   
+}
+.imagemSite{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin: 50px 0 100px 0;  
+}
+
+.new:hover{
+    border: #9c9b99 2px solid;
+    cursor: pointer;
+   
+}
+
+#contato{
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
